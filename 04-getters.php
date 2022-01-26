@@ -15,7 +15,7 @@ class Mobile
     // methods for getting properties
     public function getName()
     {
-        return "--- " . $this->name . " ---";
+        return $this->name;
     }
 
     public function getChipset()
